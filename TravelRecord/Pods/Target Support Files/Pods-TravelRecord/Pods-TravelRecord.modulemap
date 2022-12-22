@@ -1,0 +1,6 @@
+framework module Pods_TravelRecord {
+  umbrella header "Pods-TravelRecord-umbrella.h"
+
+  export *
+  module * { export * }
+}
