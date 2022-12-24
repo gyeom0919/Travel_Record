@@ -21,6 +21,7 @@
 		8D76B92A2953EC5200487C22 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D76B9292953EC5200487C22 /* HomeViewController.swift */; };
 		8D76B92F2953F2D300487C22 /* UIView + addSubviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D76B92E2953F2D300487C22 /* UIView + addSubviews.swift */; };
 		8D76B9332954092F00487C22 /* TravelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D76B9322954092F00487C22 /* TravelTableViewCell.swift */; };
+		8D88C3FC295AB92C0027C0B8 /* AddTravelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D88C3FB295AB92C0027C0B8 /* AddTravelViewController.swift */; };
 		98D925BA862D5CC0F4C27558 /* Pods_TravelRecord_TravelRecordUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 513E528B7DEBFD44D33B1A3C /* Pods_TravelRecord_TravelRecordUITests.framework */; };
 		D8BADD2176CD46DF1E9E78F1 /* Pods_TravelRecord.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442AEC960F2A7F244CB5FD0B /* Pods_TravelRecord.framework */; };
 /* End PBXBuildFile section */
@@ -64,6 +65,7 @@
 		8D76B9292953EC5200487C22 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		8D76B92E2953F2D300487C22 /* UIView + addSubviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + addSubviews.swift"; sourceTree = "<group>"; };
 		8D76B9322954092F00487C22 /* TravelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelTableViewCell.swift; sourceTree = "<group>"; };
+		8D88C3FB295AB92C0027C0B8 /* AddTravelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTravelViewController.swift; sourceTree = "<group>"; };
 		B083C962E14B9E775949FE85 /* Pods-TravelRecord.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelRecord.release.xcconfig"; path = "Target Support Files/Pods-TravelRecord/Pods-TravelRecord.release.xcconfig"; sourceTree = "<group>"; };
 		BF77005E5C31553D932BF861 /* Pods-TravelRecord-TravelRecordUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelRecord-TravelRecordUITests.release.xcconfig"; path = "Target Support Files/Pods-TravelRecord-TravelRecordUITests/Pods-TravelRecord-TravelRecordUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C9EC40BDA18B9AD5A2A8C840 /* Pods-TravelRecord-TravelRecordUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelRecord-TravelRecordUITests.debug.xcconfig"; path = "Target Support Files/Pods-TravelRecord-TravelRecordUITests/Pods-TravelRecord-TravelRecordUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -156,6 +158,7 @@
 		8D76B9232953E98100487C22 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				8D88C3FA295A953B0027C0B8 /* Addition */,
 				8D76B8F42953E5F200487C22 /* ViewController.swift */,
 				8D76B9282953EC1600487C22 /* Home */,
 			);
@@ -218,6 +221,14 @@
 				8D76B9322954092F00487C22 /* TravelTableViewCell.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		8D88C3FA295A953B0027C0B8 /* Addition */ = {
+			isa = PBXGroup;
+			children = (
+				8D88C3FB295AB92C0027C0B8 /* AddTravelViewController.swift */,
+			);
+			path = Addition;
 			sourceTree = "<group>";
 		};
 		CAC5DD12437683E9E5E73D8C /* Pods */ = {
@@ -482,6 +493,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D76B9272953EBD900487C22 /* BaseViewController.swift in Sources */,
+				8D88C3FC295AB92C0027C0B8 /* AddTravelViewController.swift in Sources */,
 				8D76B8F52953E5F200487C22 /* ViewController.swift in Sources */,
 				8D76B8F12953E5F200487C22 /* AppDelegate.swift in Sources */,
 				8D76B8FB2953E5F200487C22 /* TravelRecord.xcdatamodeld in Sources */,
