@@ -8,6 +8,8 @@ target 'TravelRecord' do
   # Pods for TravelRecord
   pod 'SnapKit', '~> 5.0.0'
   pod 'Then'
+  pod 'RxSwift', '6.5.0'
+  pod 'RxCocoa', '6.5.0'
 
   target 'TravelRecordTests' do
     inherit! :search_paths

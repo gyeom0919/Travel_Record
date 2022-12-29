@@ -22,6 +22,7 @@
 		8D76B92F2953F2D300487C22 /* UIView + addSubviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D76B92E2953F2D300487C22 /* UIView + addSubviews.swift */; };
 		8D76B9332954092F00487C22 /* TravelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D76B9322954092F00487C22 /* TravelTableViewCell.swift */; };
 		8D88C3FC295AB92C0027C0B8 /* AddTravelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D88C3FB295AB92C0027C0B8 /* AddTravelViewController.swift */; };
+		8D88C400295D12EC0027C0B8 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D88C3FF295D12EC0027C0B8 /* CustomTextField.swift */; };
 		98D925BA862D5CC0F4C27558 /* Pods_TravelRecord_TravelRecordUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 513E528B7DEBFD44D33B1A3C /* Pods_TravelRecord_TravelRecordUITests.framework */; };
 		D8BADD2176CD46DF1E9E78F1 /* Pods_TravelRecord.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442AEC960F2A7F244CB5FD0B /* Pods_TravelRecord.framework */; };
 /* End PBXBuildFile section */
@@ -66,6 +67,7 @@
 		8D76B92E2953F2D300487C22 /* UIView + addSubviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + addSubviews.swift"; sourceTree = "<group>"; };
 		8D76B9322954092F00487C22 /* TravelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelTableViewCell.swift; sourceTree = "<group>"; };
 		8D88C3FB295AB92C0027C0B8 /* AddTravelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTravelViewController.swift; sourceTree = "<group>"; };
+		8D88C3FF295D12EC0027C0B8 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		B083C962E14B9E775949FE85 /* Pods-TravelRecord.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelRecord.release.xcconfig"; path = "Target Support Files/Pods-TravelRecord/Pods-TravelRecord.release.xcconfig"; sourceTree = "<group>"; };
 		BF77005E5C31553D932BF861 /* Pods-TravelRecord-TravelRecordUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelRecord-TravelRecordUITests.release.xcconfig"; path = "Target Support Files/Pods-TravelRecord-TravelRecordUITests/Pods-TravelRecord-TravelRecordUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C9EC40BDA18B9AD5A2A8C840 /* Pods-TravelRecord-TravelRecordUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelRecord-TravelRecordUITests.debug.xcconfig"; path = "Target Support Files/Pods-TravelRecord-TravelRecordUITests/Pods-TravelRecord-TravelRecordUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 		8D76B8EF2953E5F200487C22 /* TravelRecord */ = {
 			isa = PBXGroup;
 			children = (
+				8D88C3FD295D12B70027C0B8 /* Components */,
 				8D76B9302953F31700487C22 /* Application */,
 				8D76B9252953EBC400487C22 /* Base */,
 				8D76B9232953E98100487C22 /* Scenes */,
@@ -229,6 +232,22 @@
 				8D88C3FB295AB92C0027C0B8 /* AddTravelViewController.swift */,
 			);
 			path = Addition;
+			sourceTree = "<group>";
+		};
+		8D88C3FD295D12B70027C0B8 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				8D88C3FE295D12C80027C0B8 /* TextField */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		8D88C3FE295D12C80027C0B8 /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				8D88C3FF295D12EC0027C0B8 /* CustomTextField.swift */,
+			);
+			path = TextField;
 			sourceTree = "<group>";
 		};
 		CAC5DD12437683E9E5E73D8C /* Pods */ = {
@@ -496,6 +515,7 @@
 				8D88C3FC295AB92C0027C0B8 /* AddTravelViewController.swift in Sources */,
 				8D76B8F52953E5F200487C22 /* ViewController.swift in Sources */,
 				8D76B8F12953E5F200487C22 /* AppDelegate.swift in Sources */,
+				8D88C400295D12EC0027C0B8 /* CustomTextField.swift in Sources */,
 				8D76B8FB2953E5F200487C22 /* TravelRecord.xcdatamodeld in Sources */,
 				8D76B8F32953E5F200487C22 /* SceneDelegate.swift in Sources */,
 				8D76B9332954092F00487C22 /* TravelTableViewCell.swift in Sources */,

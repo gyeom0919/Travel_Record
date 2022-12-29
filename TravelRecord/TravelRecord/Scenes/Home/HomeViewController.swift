@@ -12,7 +12,6 @@ class HomeViewController : BaseViewController {
     
     private let travelTableView = UITableView().then {
         $0.backgroundColor = .white
-        
     }
     
     override func addView() {
@@ -31,7 +30,6 @@ class HomeViewController : BaseViewController {
     override func setLayout() {
         travelTableView.snp.makeConstraints{
             $0.edges.equalTo(view.safeAreaLayoutGuide)
-//            $0.bottom.equalTo(view.safeAreaLayoutGuide).inset(50)
         }
     }
     
@@ -46,7 +44,6 @@ class HomeViewController : BaseViewController {
         let nextView = AddTravelViewController()
         navigationController?.pushViewController(nextView, animated: true)
     }
-
 }
 
 //MARK: - UITableSetting
@@ -67,9 +64,7 @@ extension HomeViewController : UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = travelTableView.dequeueReusableCell(withIdentifier: TravelTableViewCell.identifier, for: indexPath) as! TravelTableViewCell
-        
 //        cell.textLabel?.text = "Cell at row \(indexPath.row)"
-        
         return cell
     }
     
